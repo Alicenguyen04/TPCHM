@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;  /*häufig automatisch eingestellte Faktoren auf 0 gesetzt*/
+}
+
+body {
+    font-family: Helvetica;  /*Formatierung für den body: Schriftfamilie*/
+    background-color: rgb(210, 248, 198);
+}
+
+#top { 
+    text-align: right;    /*Platzierung für die ganze Überschrifft nach rechts*/
+}
+
+#logo {
+    color: white;                             
+    background-color: rgb(133, 196, 114);      
+    display: inline-block;
+    font-size: 48px;
+    margin-right: 50px; 
+    margin-top: 64px;    /*Formatierung für den body: Hintergrund- (nur, wenn Text vorhanden), Schriftfarbe, Schriftfamilie und Platzierung */
+
+}
+#logo-name {
+    color: white;
+    background-color: rgb(133, 196, 114);
+    display: inline-block;
+    font-size: 32px;
+    margin-right: 50px;
+}
+
+
+#navigation {
+    float: left;        /*Navigationssektion soll links schweben und noch Platz für andere Elemente, in der gleichen Ebene da lassen*/
+    max-width: 200px;       /*Navigationssektion soll genau 200Pixel breit sein*/
+}
+
+#navigation a {
+    margin-left: 16px;   /*unsichtbarer Abstand nach links von 16 Pixeln*/
+}
+
+#mySidenav a:visited {
+    color: blue;       /*Link soll nach dem Draufklicken noch immer blau sein*/
+}
+
+#mySidenav a:hover {
+    color:  rgb(133, 196, 114);  /*Link soll in grün erscheinen beim rüberfahren mit der Maus*/
+}
+
+#Home {
+    max-width: 25px;
+    height: 25px;
+    margin-left: 60px;
+}
+
+#Info {
+    max-width: 25px;
+    height: 25px;
+    margin-left: 60px;
+}
+
+#Pinnadel{
+    max-width: 25px;
+    height: 25px;
+    margin-left: 60px;
+    margin-right: 5px;
+}
+
+
+#main {
+   
+    max-width: 600px;
+    margin-left: 130px;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+
+    border-style: solid;
+    border-color: rgb(166, 166, 218);
+    border-width: 3px;
+    border-radius: 5px;
+}
+
+#main a:hover {
+    color:  rgb(133, 196, 114);
+}
+
+#main a:visited {
+    color: blue;
+
+}
+
+#aside {
+
+    max-width: 200px;
+    float: right; /*Fotogalerie soll rechts sein*/
+}
+
+
+#Sgeschichte {
+    margin-left: 100px;
+}
+#Stipps {
+    margin-left: 100px;
+}
+
+#Sessen {
+    margin-left: 100px;
+}
+
+#Skultur {
+    margin-left: 100px;
+}
+
+#Sarchitektur{
+    margin-left: 100px;
+}
+
+
+#footer {
+    color: grey;
+    clear: both;
+    margin-left: 500px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
